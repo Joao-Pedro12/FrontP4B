@@ -3,6 +3,8 @@ import Adicao from './components/Adicao'
 import Subtracao from './components/Subtracao'
 import Multiplicacao from './components/Multiplicacao'
 import Divisao from './components/Divisao'
+import PrecisoEstudar from './components/PrecisoEstutar'
+
 
 const App = () => {
   return (
@@ -11,8 +13,11 @@ const App = () => {
       <Subtracao num1= {3} num2= {2} />
       <Multiplicacao num1 = {5} num2= {5} />
       <Divisao num1= {10} num2= {2} />
+      <PrecisoEstudar nomeDaTecnologia = "Java"/>
+
     </div>
   )
 }
 
 
+export default App
